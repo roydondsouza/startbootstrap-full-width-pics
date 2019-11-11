@@ -14,3 +14,8 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+
+.bg-img-grayscale {
+	-webkit-filter: grayscale(50%); /* Safari */
+	filter: grayscale(50%);
+}
